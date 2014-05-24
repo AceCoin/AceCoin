@@ -540,7 +540,7 @@ void StakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("WinCoin-miner");
+    RenameThread("AceCoin-miner");
 
     bool fTryToSync = true;
 
